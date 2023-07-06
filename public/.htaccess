@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^index\.html$ /index.php
+RewriteRule ^Qui_sommes_nous$ index.php
+RewriteRule ^Ateliers_d_éveil$ ateliers_eveil.php
+RewriteRule ^Ateliers_Bien-être$ atelier_bien_etre.php
+RewriteRule ^Formations$ formations.php
+RewriteRule ^Temps_forts$ temps_forts.php
+RewriteRule ^Contact$ contact.php
+RewriteRule ^Mentions_legales$ mentions_legales.php

@@ -163,16 +163,7 @@ html, body {
 .menuanim{
 	width: 225px;
 }
-.animate-charcter-rose:hover {
+.animate-charcter {
 	transition: color 0.5s linear;
-	color: #ec4899;
-}
-.animate-charcter-vert:hover {
-	transition: color 0.5s linear;
-	color: #16a34a;
-}
-.animate-charcter-bleu:hover {
-	transition: color 0.5s linear;
-	color: #3b82f6;
 }
 /* fin */
