@@ -143,6 +143,12 @@ html, body {
 	border-bottom:1px solid #fff;
 	background-position:50% top;
   }
+  .header-bg-19 {
+	background-image: url(img/header-19.jpg);
+	background-repeat:no-repeat;
+	border-bottom:1px solid #fff;
+	background-position:50% top;
+  }
 /*fin*/
 
 /* menu 2 */
@@ -167,3 +173,15 @@ html, body {
 	transition: color 0.5s linear;
 }
 /* fin */
+.anim-apparition {
+	animation: apparition 2s ease 0s 1 normal forwards;
+}
+@keyframes apparition {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

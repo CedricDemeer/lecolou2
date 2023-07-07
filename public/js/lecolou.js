@@ -1,6 +1,7 @@
 window.addEventListener('load', (event) => {
     initcookie();
     //resizemenu();
+    
 });
 window.addEventListener('resize', (event) => {
     //resizemenu2();
