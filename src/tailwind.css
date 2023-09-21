@@ -11,8 +11,20 @@
 
 @layer base {
     html {
-        font-family: Giddyup;
+        font-family: 'Poppins', sans-serif;
     }
+	
+}
+@layer components {
+	.headerbg {
+		@apply 2xl:h-80 lg:h-64 h-40 bg-150 lg:bg-250 2xl:bg-300 bg-white
+	}
+	.color1 {
+		@apply text-blue-500 bg-blue-500 border-blue-500
+	}
+	.color2  {
+		@apply text-green-500 bg-green-500 border-green-500
+	}
 }
 
 html, body {
@@ -23,6 +35,10 @@ html, body {
   * {
 	box-sizing: border-box;
   }
+
+.Giddyup {
+	font-family: Giddyup;
+}
 .btn-menu{
     height: 50px;
     margin-bottom: -15px;
@@ -140,13 +156,13 @@ html, body {
 .header-bg-18 {
 	background-image: url(img/header-18.jpg);
 	background-repeat:no-repeat;
-	border-bottom:1px solid #fff;
+	border:none;
 	background-position:50% top;
   }
   .header-bg-19 {
 	background-image: url(img/header-19.jpg);
 	background-repeat:no-repeat;
-	border-bottom:1px solid #fff;
+	border:none;
 	background-position:50% top;
   }
 /*fin*/

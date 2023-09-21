@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule ^index\.html$ /index.php
-RewriteRule ^Qui_sommes_nous$ index.php
+RewriteRule ^L_écolou$ index.php
 RewriteRule ^Ateliers_d_éveil$ ateliers_eveil.php
 RewriteRule ^Ateliers_Bien-être$ atelier_bien_etre.php
 RewriteRule ^Formations$ formations.php

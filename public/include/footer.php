@@ -1,6 +1,6 @@
 
-<footer class="sticky top-[100vh]" >
-    <div class="bg-zinc-900 hidden lg:block w-full pb-16 pt-8" data-aos="fade-up">
+<footer class="sticky top-[100vh] Giddyup" >
+    <div class="bg-zinc-900 hidden lg:block w-full pb-4 pt-4" data-aos="fade-up">
         <div class="grid grid-cols-3 mx-5">
             <div class="col-start-1 col-end-2 justify-start h-fit inline-grid menu2">
                 <a href="Ateliers_d_éveil" class="animate-charcter hover:text-green-400 menuanim inline-flex items-center place-content-center h-12 justify-between text-white" >
@@ -74,7 +74,7 @@
                 </div>                
             </div>            
             <div class="text-white justify-self-end lg:block self-center" >
-                <div class=""><a href="Qui_sommes_nous" class="text-white text-2xl">Qui sommes nous?</a></div>
+                <div class=""><a href="L_écolou" class="text-white text-2xl">Qui sommes nous?</a></div>
                 <div class=""><a href="Contact" class="text-white text-2xl">Contact</a></div>
                 <div class=""><a href="Mentions_legales" class="text-white text-2xl">Mentions Légales</a></div>
             </div>
@@ -124,14 +124,14 @@
         
     </footer>
     <nav>
-        <div class="lg:hidden fixed bottom-0 w-full bg-zinc-900" style="z-index: 1001;">
-            <section class="top-nav text-white flex justify-center">
+        <div class="lg:hidden fixed bottom-0 w-full bg-zinc-900 Giddyup" style="z-index: 1001;">
+            <section class="top-nav text-white flex justify-center ">
                 <input id="menu-toggle" type="checkbox" />
                 <label class='menu-button-container flex' for="menu-toggle">
                     <div class='menu-button'></div>
                 </label>
                 <ul class="menu text-white fixed inset-x-0 bottom-0 mx-0 mt-0 text-2xl">
-                <li class="bg-orange-400"><a href="Qui_sommes_nous" class="text-white">L'Écolou</a></li>
+                <li class="bg-orange-400"><a href="L_écolou" class="text-white">L'écolou</a></li>
                 <li class="bg-green-400"><a href="Ateliers_d_éveil" class="ttext-white">Ateliers d'éveil</a></li>
                 <li class="bg-pink-400"><a href="Ateliers_Bien-être" class="text-white">Ateliers bien-être</a></li>
                 <li class="bg-blue-400"><a href="Formations" class="text-white">Nos formations</a></li>
