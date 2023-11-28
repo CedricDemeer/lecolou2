@@ -34,7 +34,7 @@ include('include/header.php');?>
                         <h2 class="Giddyup text-<?= $atelier->color ?> font-bold md:text-5xl text-4xl"><?= $atelier->title ?></h2>
                         <i class="text-<?= $atelier->color ?> font-bold text-xl"><?= $atelier->subtitle ?></i>
                     </div>
-                    <p class="text-lg mb-3 mt-4 text-center">
+                    <p class="text-lg mb-3 mt-4 text-left indent-1">
                     <?= $atelier->text1 ?>
                     <?php if(isset($atelier->text2) && $atelier->text2 != "") : ?>
                         <br>

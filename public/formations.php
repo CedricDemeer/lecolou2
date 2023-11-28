@@ -30,14 +30,14 @@ include('include/header.php');?>
                 </div>
                 <div class="jsbloc grid px-2 md:px-5 xl:px-8 2xl:px-10 pb-4 pt-4 rounded-b-xl bg-white border-x-2 border-b-2 border-<?= $atelier->color ?>">
                     <h2 class="Giddyup text-<?= $atelier->color ?> font-bold md:text-5xl text-4xl self-center"><?= $atelier->title ?></h3>
-                    <p class="text-lg mb-3 mt-4 text-center">
+                    <p class="text-lg mb-3 mt-4 text-left indent-1">
                     <?= $atelier->text1 ?>
                     <?php if(isset($atelier->text2) && $atelier->text2 != "") : ?>
                         <br>
                         <?= $atelier->text2 ?>
                     <?php endif ?>
                     </p>
-                    <p class="text-center text-<?= $atelier->color ?> font-bold text-2xl"><i class=""><?= $atelier->subtitle ?></i></p>
+                    <p class="text-center text-<?= $atelier->color ?> font-bold text-xl"><i class=""><?= $atelier->subtitle ?></i></p>
                 </div>
             </div>
             <?php endforeach ?>

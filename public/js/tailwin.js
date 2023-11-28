@@ -18,5 +18,6 @@ const colorVariants = {
     green400: 'bg-green-400 text-green-400 border-green-400',
     blue500: 'bg-blue-500 text-blue-500 border-blue-500',
     red400: 'bg-red-400 text-red-400 border-red-400',
+    amber500: 'bg-amber-500 text-amber-500 border-amber-500',
   }
 /* fin tailwin*/

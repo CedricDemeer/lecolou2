@@ -1,5 +1,5 @@
 <header class="relative z-50">
-        <nav  class="flex bg-amber-400 lg:h-16 h-4">
+        <nav  class="flex bg-amber-400 lg:h-16 h-0">
             <div class="container flex mx-auto">    
                 <div class="mx-auto lg:mx-0 w-60 xl:w-80">
                     <a href="L_écolou">

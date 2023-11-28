@@ -20,7 +20,7 @@
                     <i class="text-<?= $atelier->color ?> font-bold text-lg"><?= $atelier->subtitle ?></i>
                 <?php endif ?>
                 
-                <p class="text-lg mb-3 mt-4 text-center">
+                <p class="text-lg mb-3 mt-4 text-left">
                 <?= $atelier->text1 ?>
                 <?php if(isset($atelier->text2) && $atelier->text2 != "") : ?>
                     <br>

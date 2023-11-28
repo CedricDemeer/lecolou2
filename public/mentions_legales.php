@@ -1,7 +1,7 @@
 
 <?php 
 $title = "Mentions Légales";
-$description = "Les mentions légales";
+$description = "Les mentions légales de L'écolou des petits petons<";
 
 require('include/head.php');
 
@@ -25,9 +25,9 @@ include('include/header.php');?>
             <p class="my-4">lecolou.fr</p>
             <p class="my-4 underline">1.2 Éditeur (ci-après « l'éditeur ») :</p>
             <p class="my-4">
-                L'association L'écolou des Petits Petons, déclarée auprès de la préfecture de Douai sous le numéro 584888888888888
-                <br>ont le siège social est situé : 1631 rue des jardins 59870 Marchiennes
-                <br>n° de téléphone : 0672026589
+                L'association L'écolou des Petits Petons, déclarée auprès de la préfecture de Douai sous le numéro 904 221 116 / siret 904 221 116 00018
+                <br>dont le siège social est situé : 1631 rue des jardins 59870 Marchiennes
+                <br>n° de téléphone : 0630022372
                 <br>adresse mail : contact@lecolou.fr
                 <br>représentée par Cédric Demeer, Président
             </p>

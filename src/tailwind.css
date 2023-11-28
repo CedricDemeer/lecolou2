@@ -154,7 +154,7 @@ html, body {
 
 /*IMAGE HEADER*/
 .header-bg-18 {
-	background-image: url(img/header-18.jpg);
+	background-image: url(img/header-20.jpg);
 	background-repeat:no-repeat;
 	border:none;
 	background-position:50% top;
@@ -165,6 +165,7 @@ html, body {
 	border:none;
 	background-position:50% top;
   }
+  
 /*fin*/
 
 /* menu 2 */

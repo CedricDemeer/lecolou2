@@ -34,13 +34,14 @@ include('include/header.php');
                     <div class="self-center"><h2 class="Giddyup text-<?= $atelier->color ?> font-bold md:text-5xl text-4xl"><?= $atelier->title ?></h2>
                     <i class="text-<?= $atelier->color ?> font-bold text-xl"><?= $atelier->subtitle ?></i>
                     </div>
-                    <p class="text-lg mb-3 mt-4 text-center">
+                    <p class="text-lg mb-1 mt-4 text-left indent-2">
                     <?= $atelier->text1 ?>
-                    <?php if(isset($atelier->text2) && $atelier->text2 != "") : ?>
-                        <br>
-                        <?= $atelier->text2 ?>
-                    <?php endif ?>
                     </p>
+                    <?php if(isset($atelier->text2) && $atelier->text2 != "") : ?>
+                    <p class="indent-1 text-left text-lg"><?= $atelier->text2 ?></p>
+                    <?php endif ?>
+                    
+                    
                     <p class="text-center text-<?= $atelier->color ?> font-bold text-xl"><i class=""><?= $atelier->public ?></i></p>
                 </div>
             </div>
